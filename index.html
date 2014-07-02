@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presenting the Shiny app</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Presenting the Shiny app">
+  <meta name="author" content="Ines Garmendia">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/bootstrap/css/bootstrap.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Presenting the Shiny app</h1>
+    <h2>Living Conditions vs LFS explorator (project in progress)</h2>
+    <p>Ines Garmendia<br/>Eustat, Basque Government</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Purpose</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>We want to integrate information from two independent surveys run by Eustat (Basque Government) that gather social and labour market information about the Basque population, namely:</p>
+
+<ol>
+<li><p><strong>The Living Conditions Survey</strong>, in which people are interviewed every 5 years to inform about individual and family dimentions of life such as health status, working conditions, type of household, social relations, level of instruction, income level, and so on.</p></li>
+<li><p><strong>The Population in Relation to Activity Panel</strong>, the primary mechanism by which the labour market classification is derived for the Basque population.</p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Data</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Samples: </li>
+</ul>
+
+<ol>
+<li>around 5000 people in the Living Conditions Survey, </li>
+<li>around 12000 people in The Population in Relation to Activity Panel.</li>
+</ol>
+
+<ul>
+<li>Period of time: last quarter of 2009. </li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>My research project</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>My research project involves using statistical matching or data fusion methods in order to combine information from distint sources in the best (statistically sound) possible way.</p></li>
+<li><p>By processing distinct microdata files which have common information about the same population of interest (but on different units), data fusion methods produce a synthetic file potentially containing information about <em>all the units</em> and <em>all specific variables</em>, from <em>all surveys</em>.</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>What is the role of this App within the project?</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>A synthetic file was obtained containing all items from the Living Conditions Survey and the Labour Force Segment. </p></li>
+<li><p>So now it is possible to study living conditions for each labour force segment.</p></li>
+<li><p>But this is possible <em>only if the synthetic file was derived in a correct way</em>...</p></li>
+</ul>
+
+<p><strong>So let&#39;s explore tables with easiness and care!</strong></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Another advantage is that others can understand what I do</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>Statistical matching is not easy to explain. </p></li>
+<li><p>If you actually &#39;see&#39; the results, it should be much easier to understand and communicate.</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Visualization method</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The chosen visualization method is the <em>balloon plot</em>, where the value of each pairs of categories (in this case, % of people in each segment, having each condition) is mapped to the area or radius of a balloon. </p>
+
+<p>In this way, differences in patterns between distinct segments are highlighted.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Refenences</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Susanne Rässler, <em>Statistical Matching: A Frequentist Theory, Practical Applications and Alternative Bayesian Approaches</em>. Lecture Notes in Statistics. Springer.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Purpose'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Data'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='My research project'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='What is the role of this App within the project?'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Another advantage is that others can understand what I do'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Visualization method'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Refenences'>
+         7
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  <script src="libraries/widgets/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/widgets/bootstrap/js/bootbox.min.js"></script>
+
+  <script>  
+  $(function (){ 
+    $("#example").popover(); 
+    $("[rel='tooltip']").tooltip(); 
+  });  
+  </script>  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

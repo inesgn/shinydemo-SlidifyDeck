@@ -1,0 +1,4 @@
+shinydemo-SlidifyDeck
+--------------------
+
+## Repo for hosting a Slidify presentation to explain the App hosted in shinydemo
